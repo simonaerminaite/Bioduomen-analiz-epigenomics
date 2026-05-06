@@ -1,0 +1,6 @@
+raw_data/bam_files/*.bam
+raw_data/bam_files/*.bai
+raw_data/*.fastq.gz
+raw_data/fastq_trimmed/*.fq.gz
+raw_data/bam_files/*.bedGraph
+raw_data/bam_files/.RData

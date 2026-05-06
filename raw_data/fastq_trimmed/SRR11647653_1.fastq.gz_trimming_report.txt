@@ -1,0 +1,181 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRR11647653_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: 3.12.3
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 1). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRR11647653_1.fastq.gz
+Processing single-end reads on 8 cores ...
+Finished in 1720.346 s (4.791 µs/read; 12.52 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             359,077,318
+Reads with adapters:               121,175,957 (33.7%)
+Reads written (passing filters):   359,077,318 (100.0%)
+
+Total basepairs processed: 44,884,664,750 bp
+Quality-trimmed:             306,981,890 bp (0.7%)
+Total written (filtered):  44,408,416,407 bp (98.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 121175957 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 34.5%
+  C: 0.4%
+  G: 16.5%
+  T: 48.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	87534170	89769329.5	0	87534170
+2	22891656	22442332.4	0	22891656
+3	7397815	5610583.1	0	7397815
+4	3286836	1402645.8	0	3286836
+5	45240	350661.4	0	45240
+6	2372	87665.4	0	2372
+7	484	21916.3	0	484
+8	143	5479.1	0	143
+9	5737	1369.8	0	103 5634
+10	6680	342.4	1	19 6661
+11	556	85.6	1	20 536
+12	108	21.4	1	8 100
+13	39	5.4	1	10 29
+14	63	5.4	1	7 56
+15	87	5.4	1	6 81
+16	134	5.4	1	6 128
+17	163	5.4	1	19 144
+18	130	5.4	1	24 106
+19	259	5.4	1	29 230
+20	62	5.4	1	8 54
+21	74	5.4	1	7 67
+22	52	5.4	1	6 46
+23	80	5.4	1	9 71
+24	104	5.4	1	18 86
+25	56	5.4	1	4 52
+26	71	5.4	1	12 59
+27	73	5.4	1	4 69
+28	79	5.4	1	11 68
+29	56	5.4	1	7 49
+30	39	5.4	1	3 36
+31	30	5.4	1	2 28
+32	24	5.4	1	2 22
+33	35	5.4	1	1 34
+34	32	5.4	1	1 31
+35	44	5.4	1	7 37
+36	48	5.4	1	5 43
+37	36	5.4	1	1 35
+38	26	5.4	1	1 25
+39	32	5.4	1	0 32
+40	22	5.4	1	0 22
+41	21	5.4	1	0 21
+42	24	5.4	1	0 24
+43	11	5.4	1	1 10
+44	22	5.4	1	1 21
+45	22	5.4	1	0 22
+46	24	5.4	1	0 24
+47	11	5.4	1	1 10
+48	35	5.4	1	1 34
+49	17	5.4	1	0 17
+50	21	5.4	1	2 19
+51	37	5.4	1	0 37
+52	28	5.4	1	0 28
+53	20	5.4	1	0 20
+54	15	5.4	1	0 15
+55	21	5.4	1	1 20
+56	16	5.4	1	0 16
+57	19	5.4	1	0 19
+58	17	5.4	1	0 17
+59	28	5.4	1	0 28
+60	17	5.4	1	0 17
+61	26	5.4	1	0 26
+62	21	5.4	1	0 21
+63	15	5.4	1	0 15
+64	35	5.4	1	1 34
+65	24	5.4	1	1 23
+66	14	5.4	1	0 14
+67	27	5.4	1	0 27
+68	24	5.4	1	0 24
+69	29	5.4	1	1 28
+70	25	5.4	1	0 25
+71	22	5.4	1	1 21
+72	41	5.4	1	4 37
+73	25	5.4	1	1 24
+74	24	5.4	1	1 23
+75	36	5.4	1	1 35
+76	29	5.4	1	1 28
+77	23	5.4	1	1 22
+78	27	5.4	1	1 26
+79	31	5.4	1	0 31
+80	16	5.4	1	0 16
+81	28	5.4	1	0 28
+82	21	5.4	1	0 21
+83	15	5.4	1	0 15
+84	7	5.4	1	0 7
+85	26	5.4	1	0 26
+86	25	5.4	1	0 25
+87	27	5.4	1	0 27
+88	27	5.4	1	0 27
+89	21	5.4	1	0 21
+90	21	5.4	1	0 21
+91	25	5.4	1	0 25
+92	22	5.4	1	0 22
+93	25	5.4	1	0 25
+94	15	5.4	1	1 14
+95	33	5.4	1	2 31
+96	24	5.4	1	0 24
+97	26	5.4	1	0 26
+98	27	5.4	1	0 27
+99	22	5.4	1	0 22
+100	19	5.4	1	1 18
+101	18	5.4	1	1 17
+102	26	5.4	1	0 26
+103	23	5.4	1	0 23
+104	23	5.4	1	1 22
+105	32	5.4	1	0 32
+106	36	5.4	1	0 36
+107	35	5.4	1	0 35
+108	31	5.4	1	0 31
+109	18	5.4	1	1 17
+110	31	5.4	1	1 30
+111	38	5.4	1	0 38
+112	12	5.4	1	0 12
+113	28	5.4	1	0 28
+114	37	5.4	1	1 36
+115	39	5.4	1	0 39
+116	40	5.4	1	0 40
+117	36	5.4	1	0 36
+118	20	5.4	1	0 20
+119	35	5.4	1	4 31
+120	45	5.4	1	0 45
+121	34	5.4	1	1 33
+122	41	5.4	1	0 41
+123	28	5.4	1	0 28
+124	38	5.4	1	2 36
+125	70	5.4	1	8 62
+
+RUN STATISTICS FOR INPUT FILE: SRR11647653_1.fastq.gz
+=============================================
+359077318 sequences processed in total
+
